@@ -1,0 +1,119 @@
+:root{
+    --colorPrimario:#D9D9D9;
+    --colorFondo:#A49F9F;
+    --colorTarjeta:#FFFFFF;
+    --colorTexto:#000000;
+} 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Inria Sans; 
+    scroll-behavior: smooth;
+    animation-duration: 10s;
+    position: relative;
+}
+
+body{
+    background-color: var(--colorFondo);
+    height: auto;
+}
+
+header
+{
+    background-color: var(--colorPrimario);
+    position: nome;
+    width: 100%;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    nav{
+        /* height: 90px; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        a{
+            color: var(--colorTexto);
+            margin: 16px;
+            text-decoration: none;
+            font-size: 48px;
+        }
+
+        
+    }
+}
+
+
+
+.tarjetapresentacion{
+    width: 1000px;
+        height: 380px;
+        background-color: var(--colorTarjeta);
+        margin: 62px auto 25px auto;
+        padding: 30px;
+        display: flex;
+        gap: 23px;
+        box-shadow: 5px 4px 6px 1px rgba(0, 0, 0, 0.4);
+
+
+    .tarjatafotomia{
+        img{
+            width: 250px;
+            height: 200px;
+            border-radius: 5px;
+            margin-top: 15px;
+            margin-left: 60px;
+            
+        }
+
+        h2{
+            color: var(--colorTexto);
+                font-size: 32px;
+                margin-top:30px; ;
+                width: 250px;
+                margin-left: 90px;
+        }
+    }
+   
+
+    .info{
+        h2{
+            color: var(--colorTexto);
+                font-size: 32px;
+                margin-top:34px; 
+                margin-left: 110px;
+        }
+        
+        p{
+            font-size: 32px;
+            margin-left: 195px;
+        }
+
+
+        .imagen{
+        img{
+            width: 97px;
+            height: 83px;
+            margin-top: 15px;
+            margin-left: 60px;
+            margin-right: 30px;
+           
+        }
+       
+      }
+      .bt{
+        margin-left: 240px;
+        margin-top: 21px;
+        width: 274px;
+        height: 56px;
+      }
+
+    }
+
+}
